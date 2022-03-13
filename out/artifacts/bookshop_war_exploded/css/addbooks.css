@@ -1,0 +1,60 @@
+.head{
+    width: 100%;
+    height: 30px;
+    background-color:#eee;
+}
+
+.head span{
+    line-height: 30px;
+    margin-left: 20px;
+    font-size: 14px;
+    float: left;
+}
+
+.head ul{
+    line-height: 30px;
+}
+
+.head ul li{
+    float: left;
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.form{
+    padding: 20px 40px;
+    border-top: 1px lightgrey solid;
+    width: 100%;
+    border-bottom: 1px lightgray solid;
+}
+
+.table_content{
+    width: 60%;
+    display: inline-block;
+    border: 1px lightgray solid;
+}
+
+.form_content{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.form table tr td{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.form table .dfinput{
+    height: 25px;
+    line-height: 25px;
+}
+
+.form table tr b{
+    color: red;
+    padding: 5px;
+}

@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+#index_box {
+    width: 100%;
+    height: auto;
+    margin-top:-17px;
+}
+
+.index .noExit{
+	float:right;
+	margin-top:15%;
+	padding-right:40%;
+}
+
+.index span{
+	font-size:15px;
+}
+
+.book{
+	height: 100%;
+    width: 78%;
+    float: right;
+}
+
+.book_product {
+    height: auto;
+    width: 100%;
+}
+
+.book_product .book_slide {
+    height: 310px;
+    overflow: hidden;
+    float: left;
+    width: 23%;
+    position:relative;
+    margin-bottom: 30px;
+}
+
+.book_product .book_slide .book_list_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+}
+
+.book_list_img img {
+    margin-top: 20px;
+    height: auto;
+    width: 150px;
+}
+
+.book_product .book_slide .book_name {
+    text-align: center;
+    overflow: hidden;
+    font-size:17px;
+}
+
+.book_name a {
+    color: #333;
+    line-height: 20px;
+}
+
+.book_product .book_slide .book_author {
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+    font-size:14px;
+}
+
+.book_author a {
+    color: #999;
+    font-size: 12px;
+}
+
+.book_product .book_slide .book_price {
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(224, 130, 83);
+}

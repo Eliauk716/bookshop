@@ -1,0 +1,74 @@
+.shop {
+    margin-top: 1%;
+    width: 100%;
+}
+
+.addr {
+    margin-left: 310px;
+    height: 30px;
+}
+
+.addr span {
+    font-size: 15px;
+}
+
+.addr table {
+    display: inline-block;
+}
+
+.tablelist {
+    border: 1px solid #999;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.tablelist th {
+    line-height: 40px;
+    border-bottom: 1px solid #999;
+    text-indent: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.tablelist td {
+    vertical-align: middle;
+    line-height: 40px;
+    text-indent: 10px;
+    border-bottom: 1px dotted #999;
+}
+
+.tablelist .goods .row_img {
+    padding: 10px 0;
+}
+
+.tablelist .goods img {
+    height: auto;
+    width: 90px;
+    vertical-align: middle;
+}
+
+.tablelist #total {
+    color: crimson;
+}
+
+.tablelist tbody tr:hover {
+    background: #e5ebee;
+}
+
+.tablelist tfoot {
+    border-top: 1px solid #999;
+}
+
+.tablelist #settle{
+    color: #fff;
+    background-color: crimson;
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 0;
+    text-align: center;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}

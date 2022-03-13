@@ -1,0 +1,301 @@
+#index_box {
+    width: 100%;
+    height: auto;
+}
+
+.index .book_menu {
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.book_menu a {
+    color: #000;
+}
+
+.book_menu .new_title {
+    zoom: 1;
+    overflow: hidden;
+    padding: 16px 0 16px 18px;
+    border: 1px solid #e5c24d;
+    border-top: 0;
+}
+
+.book_menu dl{
+    margin-bottom: 0;
+}
+
+.book_menu .new_title dt {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.book_menu .new_title dd {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666;
+    font-weight: 400;
+}
+
+.book_menu a:hover {
+    color: #2F90B9;
+    text-decoration: none;
+}
+
+.index .index_center {
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+
+.index_center .banner {
+    float: left;
+    margin: 10px 10px;
+    position: relative;
+    width: 72%;
+    height: 320px;
+}
+
+.imgList {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.imgList img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgList .item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: all .8s;
+}
+
+.item.active {
+    z-index: 10;
+    opacity: 1;
+}
+
+.pointList {
+    position: absolute;
+    list-style: none;
+    z-index: 1000;
+    right: 10px;
+    bottom: 5px;
+}
+
+.pointList .point {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+    float: left;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.point.active {
+    background-color: red;
+}
+
+.banner .btn {
+    position: absolute;
+    z-index: 100;
+    top: 120px;
+    background-color: transparent;
+    border-style: none;
+}
+
+.banner .btn:focus {
+    outline: 0;
+}
+
+.banner .btn img {
+    width: 40px;
+    height: 50px;
+}
+
+#goPre {
+    left: 0;
+}
+
+#goNext {
+    right: 0;
+}
+
+.news {
+    width: 25%;
+    height: 325px;
+    float: right;
+    border: 1px solid #e5c24d;
+    margin-top: 10px;
+}
+
+.news .new_title {
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 20px;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.news .new_list {
+    margin-top: 20px;
+}
+
+.new_list li {
+    margin-bottom: 17px;
+    margin-left: 10px;
+}
+
+.new_list li::before {
+    content: '■';
+    color: gray;
+    margin-right: 7px;
+    font-size: 8px;
+}
+
+.new_list li a {
+    font-size: 14px;
+    color: #666;
+}
+
+.new_list li a:hover {
+    color: red;
+}
+
+.book_rec {
+    width: 100%;
+    float: left;
+}
+
+.book_rec .book_rec_title {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e5c24d;
+}
+
+.book_rec_title span {
+    font-size: 18px;
+    font-weight: 700;
+    top: 12px;
+    padding-left: 20px;
+}
+
+.book_rec_title a {
+    font-size: 12px;
+    color: #0057a0;
+}
+
+.book_product {
+    height: auto;
+    width: 100%;
+}
+
+.book_product .book_slide {
+    height: auto;
+    overflow: visible;
+    float: left;
+    width: 20%;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.book_product .book_slide .book_list_img {
+    text-align: center;
+}
+
+.book_list_img img {
+    margin-top: 20px;
+    height: 180px;
+    width: 130px;
+}
+
+.book_product .book_slide .book_name {
+    text-align: center;
+    overflow: hidden;
+}
+
+.book_name a {
+    font-size: 13px;
+    color: #333;
+    line-height: 20px;
+}
+
+.book_product .book_slide .book_author {
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.book_author a {
+    color: #999;
+    font-size: 12px;
+}
+
+.book_product .book_slide .book_price {
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(224, 130, 83);
+}
+
+/* .book_classify_box {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.book_classify .bc_head{
+    font-size: 18px;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 2px solid #e5c24d;
+}
+
+.book_classify .bc_head h3{
+    padding-left: 30px;
+    float: left;
+    background: url(/image/ic.png) no-repeat;
+}
+
+.book_classify .bc_head ul{
+    float: right;
+    right: 5px;
+    position: relative;
+}
+
+.book_classify .bc_head ul li{
+    float: left;
+    text-align: center;
+    position: relative;
+    width: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.book_classify .bc_head ul li.on a{
+    color: #cd0001;
+    font-weight: bold;
+}
+
+.book_classify .bc_head ul li a{
+    color: #333;
+}
+
+.book_classify .bc_body{
+    width: 100%;
+    height: 600px;
+} */
